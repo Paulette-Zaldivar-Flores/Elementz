@@ -1,38 +1,106 @@
-.App {
+:root {
+  --gradient: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+
+  --box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
+  --ascent-color: rgba(255, 255, 255, 0.95);
+}
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  background-image: url("/src/images/palms.jpg");
+  background-size: cover;
+}
+
+h1 {
+  color: #385170;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #385170;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-left: 5px;
+  height: 110px;
+  box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
+  text-align: center;
+  border: 2px solid #5e63b6;
+  border-radius: 10px;
+  background: var(--ascent-color);
+  text-align: center;
+  padding-top: 10px;
+}
+
+.btn {
+  box-shadow: var(--box-shadow);
+  background: var(--ascent-color);
+  text-decoration-color: #385170;
+  border: 2px solid #5e63b6;
+}
+.overview {
+  max-width: 630px;
+  padding: 10px 5px 15px 5px;
+  border: 3px solid #5e63b6;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+  background: var(--ascent-color);
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.col-5 {
+  max-width: 250px;
+  padding-top: 55px;
+  border: 3px solid #5e63b6;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+  margin-left: 20px;
+  background: var(--ascent-color);
+  text-align: center;
+}
+.col-6 {
+  max-width: 300px;
+  padding-top: 30px;
+  padding: 80px;
+  border: 3px solid #5e63b6;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+  margin-left: 30px;
+  background: var(--ascent-color);
+  text-align: center;
+}
+input {
+  box-shadow: var(--box-shadow);
+  background: var(--ascent-color);
+  text-decoration-color: #385170;
+  border: 2px solid #5e63b6;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link a {
+  color: rgb(236, 52, 236);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link {
+  color: rgb(219, 245, 194);
 }
