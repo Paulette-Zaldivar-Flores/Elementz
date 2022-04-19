@@ -99,8 +99,12 @@ input {
 
 .link a {
   color: rgb(236, 52, 236);
+  text-align: center;
+  font-size: 15px;
 }
 
 .link {
   color: rgb(219, 245, 194);
+  text-align: center;
+  font-size: 15px;
 }
