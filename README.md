@@ -1,4 +1,4 @@
-# React-Weather App 🌡
+# ⚛️ React-Weather App 🌡
 
 A live Weather Forecast App that allows you to search by city using open weather API.
 
