@@ -1,4 +1,6 @@
 import "./Weather.css";
+import img from "./images/weather.svg";
+import "bootstrap/dist/css/bootstrap.css";
 
 export default function Weather() {
   let weatherData = {
@@ -6,7 +8,7 @@ export default function Weather() {
     temperature: 19,
     date: "Tuesday 10:00",
     description: "Cloudy",
-    imgUrl: "/src/images/weather.svg",
+    imgUrl: img,
 
     humidity: 80,
     wind: 10,
