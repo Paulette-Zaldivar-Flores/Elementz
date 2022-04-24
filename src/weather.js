@@ -3,22 +3,23 @@ import "./Weather.css";
 import img from "./images/weather.svg";
 import "bootstrap/dist/css/bootstrap.css";
 import axios from "axios";
+import FormatDate from "./FormatDate";
 
 export default function Weather() {
-  const [ready, setReady] = useState(false);
-  const [weatherData, setWeatherData] = useState({});
+  const [weatherData, setWeatherData] = useState({ ready: false });
   function handleResponse(response) {
     setWeatherData({
+      ready: true,
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
+      date: new Date(response.data.dt * 1000),
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
       city: response.data.name,
       imgUrl: img,
     });
-    setReady(true);
   }
-  if (ready) {
+  if (weatherData.ready) {
     return (
       <div className="Weather">
         <form className="mb-4">
@@ -40,7 +41,9 @@ export default function Weather() {
         <div className="overview">
           <h1>{weatherData.city}</h1>
           <ul>
-            <li>Last updated: {weatherData.date}</li>
+            <li>
+              Last updated: <FormatDate date={weatherData.date} />
+            </li>
             <li className="text-capitalize">{weatherData.description}</li>
           </ul>
         </div>
