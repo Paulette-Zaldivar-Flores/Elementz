@@ -20,9 +20,16 @@ export default function Weather() {
       imgUrl: img,
     });
   }
+  function search() {
+    const apiKey = "b81e7138d4f18ecdce4149c89f6f0058";
+    let city = "Tijuana";
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    axios.get(apiUrl).then(handleResponse);
+  }
 
   function handleSubmit(event) {
     event.preventDefault();
+    search(city);
   }
 
   function handleCityChange(event) {
@@ -52,11 +59,7 @@ export default function Weather() {
       </div>
     );
   } else {
-    const apiKey = "b81e7138d4f18ecdce4149c89f6f0058";
-    let city = "Tijuana";
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-    axios.get(apiUrl).then(handleResponse);
-
+    search();
     return "Loading...";
   }
 }
