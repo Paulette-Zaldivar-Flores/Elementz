@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
 
-export default function Weather() {
+export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.city);
   function handleResponse(response) {
@@ -22,7 +22,6 @@ export default function Weather() {
   }
   function search() {
     const apiKey = "b81e7138d4f18ecdce4149c89f6f0058";
-    let city = "Tijuana";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
@@ -46,7 +45,7 @@ export default function Weather() {
                 type="search"
                 placeholder="Search for a city..."
                 className="form-control"
-                autoComplete="off"
+                autoFocus="on"
                 onChange={handleCityChange}
               />
             </div>

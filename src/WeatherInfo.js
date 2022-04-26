@@ -5,25 +5,25 @@ export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
       <div className="overview">
-        <h1>{props.city}</h1>
+        <h1>{props.data.city}</h1>
         <ul>
           <li>
-            Last updated: <FormatDate date={props.date} />
+            Last updated: <FormatDate date={props.data.date} />
           </li>
-          <li className="text-capitalize">{props.description}</li>
+          <li className="text-capitalize">{props.data.description}</li>
         </ul>
       </div>
       <div className="row">
         <div className="col-5">
           <div className="clearfix weather-temperature">
             <img
-              src={props.imgUrl}
-              alt={props.description}
+              src={props.data.imgUrl}
+              alt={props.data.description}
               className="float-left"
             />
 
             <div className="float-left">
-              <strong>{Math.round(props.temperature)}</strong>
+              <strong>{Math.round(props.data.temperature)}</strong>
               <span className="units">
                 <a href="/">°C</a>
               </span>
@@ -32,8 +32,8 @@ export default function WeatherInfo(props) {
         </div>
         <div className="col-6">
           <ul>
-            <li>Humidity{props.humidity}%</li>
-            <li>Wind: {props.wind} km/h</li>
+            <li>Humidity: {props.data.humidity}%</li>
+            <li>Wind: {props.data.wind} km/h</li>
           </ul>
         </div>
       </div>
