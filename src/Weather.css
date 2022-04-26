@@ -14,22 +14,21 @@
   margin-bottom: 20px;
 }
 
-.Weather .weather-temperature img {
-  margin-right: 5px;
-  height: 64px;
-  width: 64px;
+.Weather .weather-temperature canvas {
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 .Weather .weather-temperature strong {
   color: #385170;
-  font-size: 64px;
+  font-size: 40px;
   line-height: 1;
   font-weight: 400;
 }
 
 .Weather .weather-temperature .units {
   position: relative;
-  font-size: 16px;
+  font-size: 40px;
   top: -34px;
 }
 
@@ -46,7 +45,6 @@
   margin-top: 20px;
   text-align: center;
   color: #385170;
-
   border-radius: 5px;
 }
 
