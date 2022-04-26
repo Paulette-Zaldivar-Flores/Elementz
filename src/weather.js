@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Weather.css";
-import img from "./images/weather.svg";
+
 import "bootstrap/dist/css/bootstrap.css";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
@@ -17,7 +17,7 @@ export default function Weather(props) {
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
       city: response.data.name,
-      imgUrl: img,
+      icon: response.data.weather[0].icon,
     });
   }
   function search() {
