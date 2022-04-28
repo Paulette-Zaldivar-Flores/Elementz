@@ -62,22 +62,3 @@
 .Weather .weather-temperature .units:hover {
   text-decoration: none;
 }
-
-.Weather .weather-forecast {
-  text-align: center;
-  color: #385170;
-  border-radius: 5px;
-}
-
-.Weather .weather-forecast-date {
-  font-size: 16px;
-  color: #385170;
-}
-
-.Weather .weather-forecast-temperature-min {
-  opacity: 0.5;
-}
-
-.Weather .weather-forecast-temperatures {
-  font-size: 13px;
-}
