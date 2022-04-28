@@ -13,13 +13,16 @@
 .Weather .overview {
   margin-bottom: 20px;
 }
-
+.Weather .formatteddate {
+  line-height: 20px;
+}
 .Weather .weather-temperature canvas {
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: -10px;
 }
 
-.Weather .weather-temperature strong {
+.Weather .weather-temperature {
   color: #385170;
   font-size: 40px;
   line-height: 1;
@@ -28,8 +31,8 @@
 
 .Weather .weather-temperature .units {
   position: relative;
-  font-size: 40px;
-  top: -34px;
+  font-size: 20px;
+  top: -8px;
 }
 
 .Weather .weather-temperature .active {
@@ -40,7 +43,9 @@
 .Weather .weather-temperature .active:hover {
   text-decoration: none;
 }
-
+.humid-wind {
+  line-height: 25px;
+}
 .Weather .weather-forecast {
   margin-top: 20px;
   text-align: center;

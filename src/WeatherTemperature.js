@@ -32,8 +32,8 @@ export default function Temperature(props) {
         <span className="units">
           <a href="/" onClick={showCelsius}>
             °C
-          </a>
-          °F
+          </a>{" "}
+          | °F
         </span>
       </div>
     );

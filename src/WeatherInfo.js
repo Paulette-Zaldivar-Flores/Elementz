@@ -9,25 +9,24 @@ export default function WeatherInfo(props) {
       <div className="overview">
         <h1>{props.data.city}</h1>
         <ul>
-          <li>
-            Last updated: <FormatDate date={props.data.date} />
+          <li className="formatteddate">
+            <FormatDate date={props.data.date} />
           </li>
           <li className="text-capitalize">{props.data.description}</li>
         </ul>
       </div>
       <div className="row">
         <div className="col-5">
-          <div className="clearfix weather-temperature">
+          <div className="weather-temperature">
             <div className="float-left">
-              <WeatherIcon code={props.data.icon} size={64} />
+              <WeatherIcon code={props.data.icon} size={80} />
             </div>
-
             <div className="float-left">
               <WeatherTemperature celsius={props.data.temperature} />
             </div>
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-6 humid-wind">
           <ul>
             <li>Humidity: {props.data.humidity}%</li>
             <li>Wind: {props.data.wind} km/h</li>
