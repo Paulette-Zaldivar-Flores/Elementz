@@ -1,9 +1,11 @@
 .Weather {
-  margin: 20px;
   max-width: 630px;
-  margin: 30px auto;
   max-height: 700px;
-  padding: 20px;
+  margin: 30px auto;
+  padding-right: 25px;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border: 5px solid #5e63b6;
   box-shadow: cornsilk;
   border-radius: 30px;
@@ -12,7 +14,22 @@
 }
 .Weather .overview {
   margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
+.Weather .form-control {
+  box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
+  background: rgba(255, 255, 255, 0.95);
+  text-decoration-color: #385170;
+  border: 2px solid #5e63b6;
+  padding-left: 10px;
+  margin-left: 5px;
+}
+
+.Weather .btn {
+  margin-left: 15px;
+}
+
 .Weather .formatteddate {
   line-height: 20px;
 }
@@ -33,21 +50,20 @@
   position: relative;
   font-size: 20px;
   top: -8px;
+  text-decoration: none;
+  color: #385170;
 }
 
-.Weather .weather-temperature .active {
-  color: #385170;
+.Weather .weather-temperature .units:active {
+  color: rgb(236, 52, 236);
   cursor: default;
 }
 
-.Weather .weather-temperature .active:hover {
+.Weather .weather-temperature .units:hover {
   text-decoration: none;
 }
-.humid-wind {
-  line-height: 25px;
-}
+
 .Weather .weather-forecast {
-  margin-top: 20px;
   text-align: center;
   color: #385170;
   border-radius: 5px;
