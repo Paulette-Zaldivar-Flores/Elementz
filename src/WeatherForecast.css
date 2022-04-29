@@ -1,19 +1,14 @@
 .Weather .card {
-  margin-left: 5px;
   height: 110px;
   box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
   text-align: center;
   border: 2px solid #5e63b6;
   border-radius: 10px;
-  background: var(--ascent-color);
-  text-align: center;
-  padding-top: 10px;
 }
 
 .Weather .weather-forecast {
   text-align: center;
   color: #385170;
-  border-radius: 5px;
 }
 
 .Weather .weather-forecast-date {
@@ -27,5 +22,4 @@
 
 .Weather .weather-forecast-temperature-min {
   opacity: 0.5;
-  margin-left: 5px;
 }

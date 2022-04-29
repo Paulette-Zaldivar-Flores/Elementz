@@ -47,11 +47,7 @@
 }
 
 .Weather .weather-temperature .units {
-  position: relative;
-  font-size: 20px;
-  top: -8px;
-  text-decoration: none;
-  color: #385170;
+  font-size: 16px;
 }
 
 .Weather .weather-temperature .units:active {
