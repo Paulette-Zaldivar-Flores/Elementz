@@ -2,6 +2,7 @@ import React from "react";
 import FormatDate from "./FormatDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
+import img from "./images/weather-forecast.png";
 
 export default function WeatherInfo(props) {
   return (
@@ -16,22 +17,29 @@ export default function WeatherInfo(props) {
         </ul>
       </div>
       <div className="row">
-        <div className="col-5">
-          <div className="weather-temperature">
-            <div className="float-left">
-              <WeatherIcon code={props.data.icon} size={80} />
-            </div>
-            <div className="float-left">
-              <WeatherTemperature celsius={props.data.temperature} />
+        <div className="col">
+          <div className="card">
+            <div className="weather-temperature">
+              <div className="float-left">
+                <WeatherIcon code={props.data.icon} size={80} />
+              </div>
+              <div className="float-left">
+                <WeatherTemperature celsius={props.data.temperature} />
+              </div>
             </div>
           </div>
         </div>
-        <div className="col-6">
-          <ul>
-            <li>Humidity: {props.data.humidity}%</li>
-
-            <li>Wind: {props.data.wind} km/h</li>
-          </ul>
+        <div className="col">
+          <div className="card">
+            <ul>
+              <li>
+                {" "}
+                <img className="temp-pic" src={img} />{" "}
+              </li>
+              <li>Humidity: {props.data.humidity}%</li>
+              <li>Wind: {props.data.wind} km/h</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

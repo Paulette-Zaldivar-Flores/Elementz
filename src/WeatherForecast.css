@@ -1,9 +1,9 @@
 .Weather .card {
-  height: 110px;
   box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
   text-align: center;
   border: 2px solid #5e63b6;
   border-radius: 10px;
+  height: 150px;
 }
 
 .Weather .weather-forecast {
@@ -12,14 +12,35 @@
 }
 
 .Weather .weather-forecast-date {
+  margin-bottom: 10px;
+  margin-top: 5px;
   font-size: 16px;
   color: #385170;
 }
 
 .Weather .weather-forecast-temperatures {
+  margin-top: 10px;
+  margin-bottom: 0px;
   font-size: 15px;
 }
 
 .Weather .weather-forecast-temperature-min {
   opacity: 0.5;
+}
+
+@media (max-width: 700px) {
+  .Weather .weather-forecast .card {
+    height: 100px;
+    width: 60px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .Weather .weather-forecast-date {
+    font-size: 10px;
+  }
+
+  .Weather .weather-forecast-temperatures {
+    font-size: 10px;
+  }
 }
