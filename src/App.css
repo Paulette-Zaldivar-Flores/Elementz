@@ -1,6 +1,5 @@
 :root {
   --gradient: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
-
   --box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
   --ascent-color: rgba(255, 255, 255, 0.95);
 }
@@ -60,6 +59,7 @@ li:first-letter {
   text-decoration-color: #385170;
   border: 2px solid #5e63b6;
 }
+
 .overview {
   max-width: 630px;
   padding: 10px 5px 15px 5px;
@@ -68,33 +68,6 @@ li:first-letter {
   box-shadow: var(--box-shadow);
   background: var(--ascent-color);
   text-align: center;
-}
-.col-5 {
-  max-width: 250px;
-  padding-top: 55px;
-  border: 3px solid #5e63b6;
-  border-radius: 20px;
-  box-shadow: var(--box-shadow);
-  margin-left: 20px;
-  background: var(--ascent-color);
-  text-align: center;
-}
-.col-6 {
-  max-width: 300px;
-  padding-top: 30px;
-  padding: 80px;
-  border: 3px solid #5e63b6;
-  border-radius: 20px;
-  box-shadow: var(--box-shadow);
-  margin-left: 30px;
-  background: var(--ascent-color);
-  text-align: center;
-}
-input {
-  box-shadow: var(--box-shadow);
-  background: var(--ascent-color);
-  text-decoration-color: #385170;
-  border: 2px solid #5e63b6;
 }
 
 .link a {
@@ -107,4 +80,15 @@ input {
   color: rgb(219, 245, 194);
   text-align: center;
   font-size: 15px;
+}
+
+@media (max-width: 700px) {
+  .link {
+    text-align: center;
+    font-size: 12px;
+  }
+  .link a {
+    text-align: center;
+    font-size: 12px;
+  }
 }
