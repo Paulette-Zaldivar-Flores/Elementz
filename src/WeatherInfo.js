@@ -34,7 +34,7 @@ export default function WeatherInfo(props) {
             <ul>
               <li>
                 {" "}
-                <img className="temp-pic" src={img} />{" "}
+                <img className="temp-pic" src={img} alt="" />{" "}
               </li>
               <li>Humidity: {props.data.humidity}%</li>
               <li>Wind: {props.data.wind} km/h</li>
