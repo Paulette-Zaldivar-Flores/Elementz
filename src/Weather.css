@@ -41,7 +41,7 @@
 }
 .Weather .weather-temperature canvas {
   display: inline-block;
-  margin-top: 5px;
+  margin-top: 2px;
 }
 
 .Weather .weather-temperature {
@@ -75,11 +75,6 @@
     max-height: 600px;
   }
 
-  .Weather .weather-temperature canvas {
-    display: inline-block;
-    margin: 0px;
-  }
-
   .Weather .weather-temperature {
     font-size: 30px;
   }
@@ -92,9 +87,20 @@
   .Weather .btn {
     font-size: 10px;
     padding: 10px;
+    width: 60px;
   }
   .Weather .temp-pic {
     height: 60px;
     margin-bottom: 15px;
+  }
+
+  .Weather .weather-temperature canvas {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 45px;
+  }
+
+  .Weather .humidity-wind .card {
+    font-size: 10px;
   }
 }

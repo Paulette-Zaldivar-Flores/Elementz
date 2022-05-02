@@ -31,16 +31,19 @@
 @media (max-width: 700px) {
   .Weather .weather-forecast .card {
     height: 100px;
-    width: 60px;
-    padding: 0px;
-    margin: 0px;
+    width: 50px;
   }
 
   .Weather .weather-forecast-date {
     font-size: 10px;
+    margin-top: 2px;
   }
 
   .Weather .weather-forecast-temperatures {
     font-size: 10px;
+  }
+
+  .Weather .weather-forecast canvas {
+    width: 20px;
   }
 }
