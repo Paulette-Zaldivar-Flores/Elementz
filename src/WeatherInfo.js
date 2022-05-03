@@ -27,17 +27,15 @@ export default function WeatherInfo(props) {
         </div>
         <div className="col">
           <div className="card">
-            <div className="humidity-wind">
-              <ul>
-                <li>
-                  {" "}
-                  <img className="temp-pic" src={img} alt="" />{" "}
-                </li>
+            <ul>
+              <li>
+                {" "}
+                <img className="temp-pic" src={img} alt="" />{" "}
+              </li>
 
-                <li>Humidity: {props.data.humidity}%</li>
-                <li>Wind: {props.data.wind} km/h</li>
-              </ul>
-            </div>
+              <li>Humidity: {props.data.humidity}%</li>
+              <li>Wind: {props.data.wind} km/h</li>
+            </ul>
           </div>
         </div>
       </div>

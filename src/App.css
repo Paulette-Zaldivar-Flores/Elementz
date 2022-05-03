@@ -28,7 +28,7 @@ li {
   margin: 0;
   padding: 0;
   color: #385170;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 100;
   line-height: 19px;
 }
@@ -58,6 +58,8 @@ li:first-letter {
   background: var(--ascent-color);
   text-decoration-color: #385170;
   border: 2px solid #5e63b6;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .overview {
@@ -85,10 +87,18 @@ li:first-letter {
 @media (max-width: 700px) {
   .link {
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
   }
   .link a {
     text-align: center;
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  li {
     font-size: 12px;
   }
 }

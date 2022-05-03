@@ -1,14 +1,14 @@
 .Weather {
   max-width: 630px;
   max-height: 700px;
-  margin: 30px auto;
+  margin: 35px auto;
   padding-right: 25px;
   padding-left: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
   border: 5px solid #5e63b6;
   box-shadow: cornsilk;
-  border-radius: 30px;
+  border-radius: 25px;
   background: linear-gradient(
     108.1deg,
     rgb(167, 220, 225) 11.2%,
@@ -71,8 +71,9 @@
 
 @media (max-width: 700px) {
   .Weather {
-    max-width: 500px;
+    max-width: 550px;
     max-height: 600px;
+    margin: 30px auto;
   }
 
   .Weather .weather-temperature {
@@ -98,9 +99,5 @@
     margin-top: 15px;
     margin-bottom: 10px;
     width: 45px;
-  }
-
-  .Weather .humidity-wind .card {
-    font-size: 10px;
   }
 }
