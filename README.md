@@ -4,4 +4,5 @@ A live Weather Forecast App that allows you to search by city using open weather
 
 This project was developed with React.js, Bootstrap and Open Weather API.
 
-<img width="742" alt="react-weather" src="https://user-images.githubusercontent.com/96970580/166149812-266d1206-3b02-4fda-9204-071713d4f930.png">
+<img width="679" alt="Screen Shot 2565-05-03 at 11 49 28" src="https://user-images.githubusercontent.com/96970580/166399581-e17be96c-5d5f-44aa-8bd7-cd9b7f5eca9f.png">
+
