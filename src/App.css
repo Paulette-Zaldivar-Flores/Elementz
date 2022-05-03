@@ -1,5 +1,14 @@
 :root {
-  --gradient: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+  --gradient: radial-gradient(
+    circle at 10% 20%,
+    rgb(222, 168, 248) 0%,
+    rgb(168, 222, 248) 21.8%,
+    rgb(189, 250, 205) 35.6%,
+    rgb(243, 250, 189) 52.9%,
+    rgb(250, 227, 189) 66.8%,
+    rgb(248, 172, 172) 90%,
+    rgb(254, 211, 252) 99.7%
+  );
   --box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.582);
   --ascent-color: rgba(255, 255, 255, 0.95);
 }
@@ -82,6 +91,16 @@ li:first-letter {
   color: rgb(219, 245, 194);
   text-align: center;
   font-size: 15px;
+}
+
+.App video {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }
 
 @media (max-width: 700px) {
