@@ -1,10 +1,79 @@
 # ⚛️ React-Weather App 🌡
+> A live Weather Forecast App that allows you to search by city using a weather API.
+> Live demo [_here_](https://stupendous-pithivier-e67924.netlify.app/).
 
-A live Weather Forecast App that allows you to search by city using open weather API.
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Screenshots](#screenshots)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Acknowledgements](#acknowledgements)
+* [Contact](#contact)
 
-This project was developed with React.js,HTML, CSS,  Bootstrap and Open Weather API.
 
+## General Information
+<ul><li>The goal of this project was to create a weather app that allows you to search for the weather of any city in the world.</li></ul>
+
+
+## Technologies Used
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Bootstrap</li>
+  <li>Open Weather API</li>
+  <li>Responsive Web Development</li> </ul>
+  
+  
+  Communication Tool
+<ul>
+  <li>Axios</li></ul>
+
+
+
+## Features
+List the ready features here:
+<ul>
+  <li>Search engine ready for searching the weather in any city</li>
+  <li>Daily forecast</li></ul>
+
+
+## Screenshots
 <img width="679" alt="Screen Shot 2565-05-03 at 11 49 28" src="https://user-images.githubusercontent.com/96970580/166399581-e17be96c-5d5f-44aa-8bd7-cd9b7f5eca9f.png">
+
+
+
+## Project Status
+<ul>
+<li>Project is: in progress</li></ul>
+
+
+## Room for Improvement
+<ul>
+  <li>Improve responsiveness</li></ul>
+
+
+To do:
+<ul>
+  <li>Make responsive for all screens</li></ul>
+
+
+## Acknowledgements
+ 
+  <ul><li>This README.md was inspired by <a href ="https://github.com/ritaly"> Ritaly</a></li></ul>
+    
+   
+
+
+## Contact
+Created by [Paulette](https://pzf.netlify.app/) - feel free to contact me!
+
+
+
+
+
+
 
 # Getting Started with Create React App
 This project was bootstrapped with Create React App.
