@@ -14,6 +14,12 @@ function App() {
           <source src={bgImage} type="video/mp4" />
         </video>
         <Weather city="Mexico City" />
+        <div>
+          <p id="rights">
+            @ 2022 Paulette Zaldivar Flores. All Rights Reserved.
+          </p>
+        </div>
+
         <Footer />
       </div>
     </div>
