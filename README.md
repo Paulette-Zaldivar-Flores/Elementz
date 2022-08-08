@@ -1,6 +1,6 @@
 # ⚛️ Elementz 🌡
 > A live Weather Forecast App that allows you to search by city using a weather API.
-> Live demo [_here_](https://stupendous-pithivier-e67924.netlify.app/).
+> Live demo [_here_](https://elementz.netlify.app/).
 
 ## Table of Contents
 * [General Info](#general-information)
