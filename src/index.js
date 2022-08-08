@@ -13,6 +13,7 @@ function App() {
         <video autoPlay loop muted>
           <source src={bgImage} type="video/mp4" />
         </video>
+        <h1 id="app-title">Elementz</h1>
         <Weather city="Mexico City" />
         <div>
           <p id="rights">

@@ -33,6 +33,13 @@ h1 {
   margin-bottom: 0;
 }
 
+#app-title {
+  text-align: center;
+  font-size: 60px;
+  color: rgb(219, 245, 194);
+  margin-top: 15px;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -88,9 +95,8 @@ li:first-letter {
 }
 
 #rights {
-  margin-top: 80px;
+  margin-top: 5px;
   text-align: center;
-
   font-size: 12px;
   color: rgb(219, 245, 194);
 }
@@ -145,5 +151,8 @@ li:first-letter {
 
   li {
     font-size: 12px;
+  }
+  #app-title {
+    font-size: 50px;
   }
 }
