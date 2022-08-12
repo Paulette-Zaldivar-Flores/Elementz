@@ -97,7 +97,7 @@ li:first-letter {
 #rights {
   margin-top: 5px;
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
   color: rgb(219, 245, 194);
 }
 
@@ -146,7 +146,7 @@ li:first-letter {
   }
 
   h1 {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   li {
