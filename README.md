@@ -19,8 +19,8 @@
 
 ## Technologies Used
 <ul>
-  <li>HTML</li>
-  <li>CSS</li>
+  <li>HTML5</li>
+  <li>CSS3</li>
   <li>Bootstrap</li>
   <li>Open Weather API</li>
   <li>Responsive Web Development</li> </ul>
