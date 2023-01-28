@@ -9,7 +9,6 @@
 * [Screenshots](#screenshots)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
 
 
@@ -61,11 +60,6 @@ List the ready features here:
 To do:
 <ul>
   <li>Make responsive for all screens</li></ul>
-
-
-## Acknowledgements
- 
-  <ul><li>This README.md was inspired by <a href ="https://github.com/ritaly"> Ritaly</a></li></ul>
     
    
 
