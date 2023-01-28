@@ -20,7 +20,6 @@
 <ul>
   <li>HTML5</li>
   <li>CSS3</li>
-  <li>Bootstrap</li>
   <li>Open Weather API</li>
   <li>Responsive Web Development</li> </ul>
   
@@ -30,8 +29,11 @@
   <li>Axios</li></ul>
   
 ## Framework
-<ul><li>React.js</li>
-  <li> Bootstrap</li></ul>
+<ul><li>React.js</li></ul>
+  
+## Libraries
+ 
+ <ul><li> Bootstrap</li></ul>
 
 
 
